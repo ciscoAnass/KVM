@@ -32,7 +32,7 @@
 | virsh vcpuinfo $N-Maquina  | Ver CPU máquina                        |
 
 
-### Gestion de Volumenes Logicos
+### Gestion de Pool
 
 | Parametro                  | Descripción                                       |
 |----------------------------|---------------------------------------------------|
