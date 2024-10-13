@@ -40,8 +40,16 @@ virsh attach-disk Win10Anass --source /var/lib/libvirt/images/disco1.qcow2 vdb -
 
 ### 7. Aumentar la capacidad de un disco
 
+- Si la Maquina esta parada hacemos lo siguiente :
+
 ```bash
 virsh vol-resize disco1.qcow2 20G --pool default
+```
+
+- Si la Maquina esta encendica hacemos lo siguiente :
+
+```bash
+virsh blockresize Mint-Anass disco1.qcow2 20G 
 ```
 
 ### 8. Clonar un disco
