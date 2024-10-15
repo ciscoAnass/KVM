@@ -19,7 +19,7 @@
 | virsh define $N-Maquina             | Definir una máquina virtual         |
 | virsh undefine $N-Maquina           | Borrar una máquina virtual          |
 | virsh autostart $N-Maquina          | La maquina se inicie automaticamente|
-| virsh -disable autostart $N-Maquina | Deshabilitar el comando anterior    |
+| virsh autostart --disable $N-Maquina | Deshabilitar el comando anterior    |
 
 
 
