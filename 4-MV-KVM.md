@@ -58,7 +58,7 @@ virsh dominfo $Nombre_de_maquina
 
 
 ```bash
-virsh dominfo $Nombre_de_maquina
+virsh nodeinfo
 ```
 5. Apagar la máquina:
 
