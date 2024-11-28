@@ -99,6 +99,22 @@ systemctl restart networking.service
 5. COmpronamos que La tarjeta virtual se ha creado Perfectamente
 
 
+
+
+
+***
+### Configuración de una red tipo NAT
+```bash
+# NAT
+auto enpos3
+iface enp0s3 inet manual 
+iface bro inet dhcp
+bridge_ports enp0s3 
+bridge_stp off 
+bridge_fd0
+bridge_maxwait
+```
+
 ```bash
 ip a show br0
 ```
