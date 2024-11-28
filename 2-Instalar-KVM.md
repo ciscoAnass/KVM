@@ -72,6 +72,14 @@ virt-host-validate
 ```
 
 
+### COnfiguracion
+
+```bash
+virt-sysprep -d ANass --hostname ANass0 --root-password password:peque
+```
+
+
+
 
 
 
